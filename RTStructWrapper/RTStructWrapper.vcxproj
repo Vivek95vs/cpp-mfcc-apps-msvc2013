@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9E6ED58B-B1E6-4430-889E-03987EC889E8}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>RTStructWrapper</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>D:\TKs\LibsForGRAY\DCMTK_Release\include;D:\TKs\LibsForGRAY\ITK\ITK_R\include\ITK-4.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dcmpmap.lib;dcmpstat.lib;dcmqrdb.lib;dcmrt.lib;dcmseg.lib;dcmsr.lib;dcmtls.lib;dcmtract.lib;dcmwlm.lib;i2d.lib;ijg8.lib;ijg12.lib;ijg16.lib;oflog.lib;ofstd.lib;charls.lib;cmr.lib;dcmdata.lib;dcmdsig.lib;dcmfg.lib;dcmimage.lib;dcmimgle.lib;dcmiod.lib;dcmjpeg.lib;dcmjpls.lib;dcmnet.lib;ITKStatistics-4.11.lib;itksys-4.11.lib;itktestlib-4.11.lib;itktiff-4.11.lib;ITKTransform-4.11.lib;ITKTransformFactory-4.11.lib;itkv3p_netlib-4.11.lib;itkvcl-4.11.lib;ITKVideoCore-4.11.lib;ITKVideoIO-4.11.lib;itkvnl_algo-4.11.lib;itkvnl-4.11.lib;ITKVNLInstantiation-4.11.lib;ITKVTK-4.11.lib;ITKVtkGlue-4.11.lib;ITKWatersheds-4.11.lib;itkzlib-4.11.lib;ITKznz-4.11.lib;libhdf5.settings;libitkhdf5.lib;libitkhdf5_cpp.lib;ITKBiasCorrection-4.11.lib;ITKBioCell-4.11.lib;ITKCommon-4.11.lib;ITKDICOMParser-4.11.lib;itkdouble-conversion-4.11.lib;ITKEXPAT-4.11.lib;ITKFEM-4.11.lib;itkgdcmcharls-4.11.lib;itkgdcmCommon-4.11.lib;itkgdcmDICT-4.11.lib;itkgdcmDSED-4.11.lib;itkgdcmIOD-4.11.lib;itkgdcmjpeg8-4.11.lib;itkgdcmjpeg12-4.11.lib;itkgdcmjpeg16-4.11.lib;itkgdcmMEXD-4.11.lib;itkgdcmMSFF-4.11.lib;itkgdcmopenjpeg-4.11.lib;itkgdcmsocketxx-4.11.lib;ITKgiftiio-4.11.lib;ITKIOBioRad-4.11.lib;ITKIOBMP-4.11.lib;ITKIOCSV-4.11.lib;ITKIOGDCM-4.11.lib;ITKIOGE-4.11.lib;ITKIOGIPL-4.11.lib;ITKIOHDF5-4.11.lib;ITKIOImageBase-4.11.lib;ITKIOIPL-4.11.lib;ITKIOJPEG-4.11.lib;ITKIOLSM-4.11.lib;ITKIOMesh-4.11.lib;ITKIOMeta-4.11.lib;ITKIOMRC-4.11.lib;ITKIONIFTI-4.11.lib;ITKIONRRD-4.11.lib;ITKIOPNG-4.11.lib;ITKIOSiemens-4.11.lib;ITKIOSpatialObjects-4.11.lib;ITKIOStimulate-4.11.lib;ITKIOTIFF-4.11.lib;ITKIOTransformBase-4.11.lib;ITKIOTransformHDF5-4.11.lib;ITKIOTransformInsightLegacy-4.11.lib;ITKIOTransformMatlab-4.11.lib;ITKIOVTK-4.11.lib;ITKIOXML-4.11.lib;itkjpeg-4.11.lib;ITKKLMRegionGrowing-4.11.lib;ITKLabelMap-4.11.lib;ITKMesh-4.11.lib;ITKMetaIO-4.11.lib;itknetlib-4.11.lib;itkNetlibSlatec-4.11.lib;ITKniftiio-4.11.lib;ITKNrrdIO-4.11.lib;ITKOptimizers-4.11.lib;ITKOptimizersv4-4.11.lib;ITKPath-4.11.lib;itkpng-4.11.lib;ITKPolynomials-4.11.lib;ITKQuadEdgeMesh-4.11.lib;ITKSpatialObjects-4.11.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\TKs\LibsForGRAY\ITK\ITK_R\lib;D:\TKs\LibsForGRAY\DCMTK_Release\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RTStructWrapper.h" />
+    <ClInclude Include="Stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="RTStructWrapper.cpp" />
+    <ClCompile Include="Stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
