@@ -1,0 +1,3 @@
+﻿  HDR.cpp
+d:\chaitanya\new work flow\hdr with sql\hdr_main_code\hdr\hdr\hdr.cpp(830): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  HDR.vcxproj -> D:\chaitanya\New work flow\HDR with sql\HDR_MAIN_CODE\HDR\x64\Release\HDR.exe
