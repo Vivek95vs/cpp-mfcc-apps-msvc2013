@@ -1,0 +1,3 @@
+D:\MYVSProject\Collision detect\addcshar\bin\x64\Release\addcshar.exe.config
+D:\MYVSProject\Collision detect\addcshar\bin\x64\Release\addcshar.exe
+D:\MYVSProject\Collision detect\addcshar\obj\x64\Release\addcshar.exe

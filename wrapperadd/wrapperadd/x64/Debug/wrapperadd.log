@@ -1,0 +1,8 @@
+﻿  Stdafx.cpp
+  AssemblyInfo.cpp
+  wrapperadd.cpp
+d:\myvsproject\wrapperadd\wrapperadd\wrapperadd.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\myvsproject\wrapperadd\wrapperadd\wrapperadd.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  wrapperadd.vcxproj -> D:\MYVSProject\wrapperadd\x64\Debug\wrapperadd.dll
