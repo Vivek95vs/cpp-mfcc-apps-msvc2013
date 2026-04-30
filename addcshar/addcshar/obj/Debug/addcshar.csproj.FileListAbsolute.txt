@@ -1,0 +1,6 @@
+D:\MYVSProject\addcshar\addcshar\bin\Debug\addcshar.exe.config
+D:\MYVSProject\addcshar\addcshar\bin\Debug\addcshar.exe
+D:\MYVSProject\addcshar\addcshar\bin\Debug\addcshar.pdb
+D:\MYVSProject\addcshar\addcshar\obj\Debug\addcshar.csprojResolveAssemblyReference.cache
+D:\MYVSProject\addcshar\addcshar\obj\Debug\addcshar.exe
+D:\MYVSProject\addcshar\addcshar\obj\Debug\addcshar.pdb
