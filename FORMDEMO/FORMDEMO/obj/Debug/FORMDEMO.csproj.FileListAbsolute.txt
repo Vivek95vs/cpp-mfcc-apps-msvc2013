@@ -1,0 +1,15 @@
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\bin\Debug\FORMDEMO.exe.config
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\bin\Debug\FORMDEMO.exe
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\bin\Debug\FORMDEMO.pdb
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\obj\Debug\FORMDEMO.csprojAssemblyReference.cache
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\obj\Debug\MainWindow.g.cs
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\obj\Debug\App.g.cs
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\obj\Debug\FORMDEMO_MarkupCompile.cache
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\obj\Debug\FORMDEMO_MarkupCompile.lref
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\obj\Debug\MainWindow.baml
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\obj\Debug\FORMDEMO.g.resources
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\obj\Debug\FORMDEMO.Properties.Resources.resources
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\obj\Debug\FORMDEMO.csproj.GenerateResource.cache
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\obj\Debug\FORMDEMO.csproj.CoreCompileInputs.cache
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\obj\Debug\FORMDEMO.exe
+D:\2017 cudaproj\New folder\FORMDEMO\FORMDEMO\obj\Debug\FORMDEMO.pdb
